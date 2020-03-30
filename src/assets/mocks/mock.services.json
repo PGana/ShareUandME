@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Netflix",
+        "value": "10",
+        "category": "1000"
+    },
+    {
+        "name": "BookMyShow",
+        "value": "11",
+        "category": "1000"
+    },
+    {
+        "name": "Amazon Prime",
+        "value": "12",
+        "category": "1000"
+    },     
+    {
+        "name": "Micorsoft Visual Studio",
+        "value": "103",
+        "category": "1001"
+    }
+
+]

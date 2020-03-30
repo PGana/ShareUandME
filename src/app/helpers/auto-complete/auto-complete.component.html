@@ -1,0 +1,12 @@
+ <form>
+        <mat-form-field [floatLabel]="'never'">
+            <mat-label>{{InputPlaceHolder}}</mat-label>
+            <input type="text" matInput [matAutocomplete]="auto" [formControl]="inputControl">
+            <mat-icon matSuffix>business</mat-icon>
+            <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+                <mat-option *ngFor="let val of listArray | async" [value]="val.name"> {{val.name}}
+                </mat-option>
+            </mat-autocomplete>
+        </mat-form-field>
+    </form>
+ 

@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+$defaultColor :  #424242;
+html, body { height: 100%; }
+body { margin: 0; font-family: "Roboto", "Helvetica Neue", sans-serif; font-size: 14px;  color: #424242;}
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+.mat-grid-tile-header
+{
+    background-color: white !important;
+    color: $defaultColor !important;
+}
+
+.tRow {
+    display: block;
+    width: 100%;
+    flex-direction: row;
+}
+
+.tCol {
+    display: block;
+    height: 100%;
+    flex-direction: column;
+}
+.tFlex{
+    flex: auto 0 1;
+}

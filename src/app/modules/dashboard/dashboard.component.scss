@@ -1,0 +1,25 @@
+
+$list-logo :37px;
+$list-logo-top:19px;
+.elipse-logo{
+    height: $list-logo;
+    width: $list-logo;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    vertical-align:middle;
+    display: table-cell;
+}
+.logo-margin{
+    margin-top: $list-logo-top;
+    position: absolute;
+}
+.title-left-margin{
+    margin-left: $list-logo-top + 30px;
+}
+
+.tot-count-label{
+    letter-spacing: 1.2px;
+    color: lightslategray;
+}
